@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nombres_cartas">
+        <item>orona</item>
+        <item>dos_oros</item>
+        <item>tres_oros</item>
+        <item>cuatro_oros</item>
+        <item>cinco_oros</item>
+        <item>seis_oros</item>
+        <item>siete_oros</item>
+        <item>sota_oros</item>
+        <item>caballo_oros</item>
+        <item>rey_oros</item>
+
+        <item>copon</item>
+        <item>dos_copas</item>
+        <item>tres_copas</item>
+        <item>cuatro_copas</item>
+        <item>cinco_copas</item>
+        <item>seis_copas</item>
+        <item>siete_copas</item>
+        <item>sota_copas</item>
+        <item>caballo_copas</item>
+        <item>rey_copas</item>
+
+        <item>espadona</item>
+        <item>dos_espadas</item>
+        <item>tres_espadas</item>
+        <item>cuatro_espadas</item>
+        <item>cinco_espadas</item>
+        <item>seis_espadas</item>
+        <item>siete_espadas</item>
+        <item>sota_espadas</item>
+        <item>caballo_espadas</item>
+        <item>rey_espadas</item>
+
+        <item>baston</item>
+        <item>dos_bastos</item>
+        <item>tres_bastos</item>
+        <item>cuatro_bastos</item>
+        <item>cinco_bastos</item>
+        <item>seis_bastos</item>
+        <item>siete_bastos</item>
+        <item>sota_bastos</item>
+        <item>caballo_bastos</item>
+        <item>rey_bastos</item>
+    </string-array>
+
+    <array name="drawables">
+        <item>@drawable/orona</item>
+        <item>@drawable/dos_oros</item>
+        <item>@drawable/tres_oros</item>
+        <item>@drawable/cuatro_oros</item>
+        <item>@drawable/cinco_oros</item>
+        <item>@drawable/seis_oros</item>
+        <item>@drawable/siete_oros</item>
+        <item>@drawable/sota_oros</item>
+        <item>@drawable/caballo_oros</item>
+        <item>@drawable/rey_oros</item>
+
+        <item>@drawable/copon</item>
+        <item>@drawable/dos_copas</item>
+        <item>@drawable/tres_copas</item>
+        <item>@drawable/cuatro_copas</item>
+        <item>@drawable/cinco_copas</item>
+        <item>@drawable/seis_copas</item>
+        <item>@drawable/siete_copas</item>
+        <item>@drawable/sota_copas</item>
+        <item>@drawable/caballo_copas</item>
+        <item>@drawable/rey_copas</item>
+
+        <item>@drawable/espadona</item>
+        <item>@drawable/dos_espadas</item>
+        <item>@drawable/tres_espadas</item>
+        <item>@drawable/cuatro_espadas</item>
+        <item>@drawable/cinco_espadas</item>
+        <item>@drawable/seis_espadas</item>
+        <item>@drawable/siete_espadas</item>
+        <item>@drawable/sota_espadas</item>
+        <item>@drawable/caballo_espadas</item>
+        <item>@drawable/rey_espadas</item>
+
+        <item>@drawable/baston</item>
+        <item>@drawable/dos_bastos</item>
+        <item>@drawable/tres_bastos</item>
+        <item>@drawable/cuatro_bastos</item>
+        <item>@drawable/cinco_bastos</item>
+        <item>@drawable/seis_bastos</item>
+        <item>@drawable/siete_bastos</item>
+        <item>@drawable/sota_bastos</item>
+        <item>@drawable/caballo_bastos</item>
+        <item>@drawable/rey_bastos</item>
+    </array>
+
+</resources>

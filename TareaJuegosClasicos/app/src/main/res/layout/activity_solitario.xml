@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".juegos.Solitario">
+
+
+    <LinearLayout
+        android:id="@+id/linearSolitario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/fragment3"
+            android:name="com.example.adan.tareajuegosclasicos.juegos.CartasUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            tools:layout="@layout/fragment_usuario"/>
+
+        <fragment
+            android:id="@+id/fragment4"
+            android:name="com.example.adan.tareajuegosclasicos.juegos.Cartas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            tools:layout="@layout/fragment_cartas"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

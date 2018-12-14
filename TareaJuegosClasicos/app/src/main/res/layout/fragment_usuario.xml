@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".juegos.CartasUsuario">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/puntuacionMaxima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Puntuacion Máxima: 0"
+        app:layout_constraintStart_toEndOf="@+id/carta1"
+        app:layout_constraintTop_toTopOf="@+id/carta1" />
+
+    <TextView
+        android:id="@+id/puntuacionActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="puntuación actual: 0"
+        app:layout_constraintStart_toEndOf="@+id/carta1"
+        app:layout_constraintTop_toBottomOf="@+id/puntuacionMaxima" />
+
+    <ImageView
+        android:id="@+id/carta1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/reverso_carta"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/carta3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/reverso_carta"
+        app:layout_constraintTop_toBottomOf="@+id/carta2"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/carta4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/reverso_carta"
+        app:layout_constraintTop_toBottomOf="@+id/carta3"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/carta2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/reverso_carta"
+        app:layout_constraintTop_toBottomOf="@+id/carta1"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/cartaActual"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/reverso_carta"
+        app:layout_constraintStart_toEndOf="@+id/carta2"
+        app:layout_constraintTop_toTopOf="@+id/carta2" />
+</android.support.constraint.ConstraintLayout>
